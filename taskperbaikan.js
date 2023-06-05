@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * TODO 1.
  * Buat array of object users (5 users).
@@ -5,32 +6,32 @@
  * Note: Ubah var menggunakan JavaScript Modern.
  */
 const users = [
-  {
+    {
     name: "Aufa",
     age: 22,
-    major: "Informatika",
-  },
-  {
+    major: "Informatika"
+    },
+    {
     name: "Isfa",
     age: 16,
-    major: "Informatika",
-  },
-  {
+    major: "Informatika"
+    },
+    {
     name: "Nurul",
     age: 20,
-    major: "Sistem Informasi",
-  },
-  {
+    major: "Sistem Informasi"
+    },
+    {
     name: "Yulia",
     age: 19,
-    major: "Informatika",
-  },
-  {
+    major: "Informatika"
+    },
+    {
     name: "Nazhifah",
     age: 20,
-    major: "Bisnis Digital",
-  },
-];
+    major: "Bisnis Digital"
+    },
+  ];
 
 /**
  * TODO 2
@@ -38,11 +39,11 @@ const users = [
  * Hint: Gunakan for/for-of.
  * Note: Ubah function menggunakan arrow function.
  */
-const all = () => {
-  for (const mahasiswa of users) {
+  const all = () => {
+  for (const mahasiswa of users){
     console.log(mahasiswa);
   }
-};
+}
 
 /** 
  * dengan for-in
@@ -59,10 +60,11 @@ const all = () => {
  * Hint: Gunakan method push.
  * Note: Ubah function menggunakan arrow function.
  */
-const store = (user) => {
-  users.push(user);
+  const store = (user) => {
+  users.push (user);
   all();
-};
+
+}
 
 /**
  * TODO 4.
@@ -70,9 +72,11 @@ const store = (user) => {
  * Hint: re-assign array.
  * Note: Ubah function menggunakan arrow function.
  */
-const update = (index, user) => {
-  if (users[index]) all();
-};
+  const update = (index, user) => {
+  if (users[index])
+  all();
+
+}
 
 /**
  * TODO 5.
@@ -80,10 +84,10 @@ const update = (index, user) => {
  * Hint: Gunakan method splice.
  * Note: Ubah function menggunakan arrow function.
  */
-const destroy = (index) => {
-  users.splice(index, 1);
+  const destroy = (index) => {
+  users.splice (index, 1);
   all();
-};
+}
 
 /**
  * Function main.
@@ -91,7 +95,7 @@ const destroy = (index) => {
  * Function ini untuk testing task.
  */
 
-const main = () => {
+  const main = () => {
   /**
    * Test function index
    */
@@ -126,7 +130,7 @@ const main = () => {
   /**
    * Test function destroy
    */
-
+  
   console.log("# Delete User: Nurul");
   const deletedIndex = 2;
   destroy(deletedIndex);
@@ -138,7 +142,7 @@ main();
  * Jangan hapus exports.
  * Exports ini untuk tujuan testing.
  */
-
+=======
 /**
  * TODO 1.
  * Buat array of object users (5 users).
@@ -146,32 +150,32 @@ main();
  * Note: Ubah var menggunakan JavaScript Modern.
  */
 const users = [
-  {
+    {
     name: "Aufa",
     age: 22,
-    major: "Informatika",
-  },
-  {
+    major: "Informatika"
+    },
+    {
     name: "Isfa",
     age: 16,
-    major: "Informatika",
-  },
-  {
+    major: "Informatika"
+    },
+    {
     name: "Nurul",
     age: 20,
-    major: "Sistem Informasi",
-  },
-  {
+    major: "Sistem Informasi"
+    },
+    {
     name: "Yulia",
     age: 19,
-    major: "Informatika",
-  },
-  {
+    major: "Informatika"
+    },
+    {
     name: "Nazhifah",
     age: 20,
-    major: "Bisnis Digital",
-  },
-];
+    major: "Bisnis Digital"
+    },
+  ];
 
 /**
  * TODO 2
@@ -179,11 +183,11 @@ const users = [
  * Hint: Gunakan for/for-of.
  * Note: Ubah function menggunakan arrow function.
  */
-const all = () => {
-  for (const mahasiswa of users) {
+  const all = () => {
+  for (const mahasiswa of users){
     console.log(mahasiswa);
   }
-};
+}
 
 /** 
  * dengan for-in
@@ -200,10 +204,11 @@ const all = () => {
  * Hint: Gunakan method push.
  * Note: Ubah function menggunakan arrow function.
  */
-const store = (user) => {
-  users.push(user);
+  const store = (user) => {
+  users.push (user);
   all();
-};
+
+}
 
 /**
  * TODO 4.
@@ -211,9 +216,11 @@ const store = (user) => {
  * Hint: re-assign array.
  * Note: Ubah function menggunakan arrow function.
  */
-const update = (index, user) => {
-  if (users[index]) all();
-};
+  const update = (index, user) => {
+  if (users[index])
+  all();
+
+}
 
 /**
  * TODO 5.
@@ -221,10 +228,10 @@ const update = (index, user) => {
  * Hint: Gunakan method splice.
  * Note: Ubah function menggunakan arrow function.
  */
-const destroy = (index) => {
-  users.splice(index, 1);
+  const destroy = (index) => {
+  users.splice (index, 1);
   all();
-};
+}
 
 /**
  * Function main.
@@ -232,7 +239,7 @@ const destroy = (index) => {
  * Function ini untuk testing task.
  */
 
-const main = () => {
+  const main = () => {
   /**
    * Test function index
    */
@@ -267,7 +274,7 @@ const main = () => {
   /**
    * Test function destroy
    */
-
+  
   console.log("# Delete User: Nurul");
   const deletedIndex = 2;
   destroy(deletedIndex);
@@ -279,5 +286,5 @@ main();
  * Jangan hapus exports.
  * Exports ini untuk tujuan testing.
  */
-
+>>>>>>> 488716643ecfa1d2fcba7418e93ddf29e8161c0d
 module.exports = { users, all, store, update, destroy };
