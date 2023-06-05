@@ -3,6 +3,7 @@
  * Buat array of object users (5 users).
  * Object memiliki property: name, age, major.
  * Note: Ubah var menggunakan JavaScript Modern.
+ * sudah d ubah
  */
 const users = [
   {
